@@ -1,0 +1,15 @@
+public class AddTwoNumbers {
+    public static void main(String[] args) {
+        int num1 = 5; // First number
+        int num2 = 7; // Second number
+        int sum = 0;
+
+        // Using a for loop to add the two numbers
+        for (int i = 0; i < num2; i++) {
+            sum += 1;
+        }
+        sum += num1;
+
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+    }
+}
