@@ -1,0 +1,18 @@
+public class AddTwoNumbers {
+
+    // Function to add two numbers
+    public static int addNumbers(int num1, int num2) {
+        return num1 + num2;
+    }
+
+    public static void main(String[] args) {
+        int number1 = 10; // First number
+        int number2 = 20; // Second number
+
+        // Calling the function and storing the result
+        int result = addNumbers(number1, number2);
+
+        // Displaying the result
+        System.out.println("The sum of " + number1 + " and " + number2 + " is: " + result);
+    }
+}
